@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorWasm.Server", "HelloBlazorWasm\Server\HelloBlazorWasm.Server.csproj", "{A07F179F-40E2-40B0-8E89-67FEEE15D3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorWasm.Client", "HelloBlazorWasm\Client\HelloBlazorWasm.Client.csproj", "{92A8B9F8-24A7-4196-969B-61D41CDEF856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorWasm.Shared", "HelloBlazorWasm\Shared\HelloBlazorWasm.Shared.csproj", "{234A95D0-037B-4854-B04F-344875115883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07F179F-40E2-40B0-8E89-67FEEE15D3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07F179F-40E2-40B0-8E89-67FEEE15D3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07F179F-40E2-40B0-8E89-67FEEE15D3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07F179F-40E2-40B0-8E89-67FEEE15D3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A8B9F8-24A7-4196-969B-61D41CDEF856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A8B9F8-24A7-4196-969B-61D41CDEF856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A8B9F8-24A7-4196-969B-61D41CDEF856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A8B9F8-24A7-4196-969B-61D41CDEF856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234A95D0-037B-4854-B04F-344875115883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234A95D0-037B-4854-B04F-344875115883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234A95D0-037B-4854-B04F-344875115883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234A95D0-037B-4854-B04F-344875115883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
